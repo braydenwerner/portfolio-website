@@ -1,3 +1,5 @@
+import firstamerican from '../image/firstamerican.jpg'
+import umich from '../image/umich.jpg'
 import wernMP4 from '../mp4/wern3.mp4'
 import longChessMP4 from '../mp4/long-chess.mp4'
 import pgioMP4 from '../mp4/pgio.mp4'
@@ -40,7 +42,20 @@ const socialLinks = [
 
 const workExperience = [
   {
-    role: 'React.js Developer (Internship)',
+    role: 'Software Engineering Intern',
+    image: firstamerican,
+    employer: 'First American Title',
+    date: 'June 2021 - September 2021',
+    description: [
+      '• Completely refactored a web application to enable Business-to-Employee authentication for added security',
+      '• Implemented unit testing with xUnit and Mock frameworks and logging with Log4Net',
+      '•	Worked with C# .NET, Angular, SQL Server Management Studio, and Microsoft Azure',
+      '•	Organized work using the Agile Methodology'
+    ]
+  },
+  {
+    role: 'Software Engineering Intern',
+    image: umich,
     employer: 'University of Michigan',
     date: 'December 2020 - Current',
     description: [
@@ -55,7 +70,7 @@ const projectLinks = [
   {
     name: 'EZ Notes',
     description:
-      'A drawing and notetaking application with over 28,000 downloads on the steam marketplace. It is intended to be used as a desktop background for Wallpaper Engine.',
+      'A drawing and notetaking application with over 50,000 downloads on the steam marketplace. It is intended to be used as a desktop background for Wallpaper Engine.',
     githubURL: 'https://github.com/braydenwerner/Whiteboard-Desktop-Wallpaper',
     websiteURL:
       'https://steamcommunity.com/sharedfiles/filedetails/?id=2399605361',
